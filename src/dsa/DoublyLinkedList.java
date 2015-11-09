@@ -22,7 +22,6 @@ public class DoublyLinkedList<E> implements Iterable<E> {
 		Node prev;
 	}
 
-
 	public ListIterator<E> iterator() {
 		return new DoublyLinkedListIterator();
 	}
